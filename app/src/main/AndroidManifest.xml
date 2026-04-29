@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.skm.guideme">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GuideMe"
+        tools:targetApi="31">
+
+        <!-- OSMDroid Apache Client -->
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <!-- Login Activity (Launcher) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Sign Up Activity -->
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+
+        <!-- Home Activity (after login) -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+
+        <!-- Map Activity (for showing selected category) -->
+        <activity
+            android:name=".MapActivity"
+            android:exported="false" />
+
+        <!-- Place Detail Activity (for detail view of selected POI) -->
+        <activity
+            android:name=".PlaceDetailActivity"
+            android:exported="false" />
+
+    </application>
+</manifest>

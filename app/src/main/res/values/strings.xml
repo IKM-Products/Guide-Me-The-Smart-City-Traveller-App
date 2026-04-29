@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GuideMe</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="fetching_Location" tools:ignore="TypographyEllipsis">Fetching location...</string>
+    <string name="hotels_Nearby">Hotels Nearby</string>
+    <string name="hospitals_Nearby">Hospitals Nearby</string>
+    <string name="banks_Atms_Nearby">Banks/ATMs Nearby</string>
+    <string name="tourist_Attractions">Tourist Attractions</string>
+    <string name="logo_description">GuideMe App Logo</string>
+    <string name="place_image_desc">Image of the place</string>
+
+</resources>

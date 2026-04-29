@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaceDetailActivity">
+    <TextView
+        android:id="@+id/placeTitle"
+        android:text="Place Name"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <ImageView
+        android:id="@+id/placeImageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:contentDescription="@string/place_image_desc"/>
+    <TextView
+        android:id="@+id/placeDescription"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Place description will appear here."
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/drivingTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:text="Driving: ..."
+        android:textColor="#1E88E5"
+        android:textSize="16sp"
+        android:textStyle="italic"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <org.osmdroid.views.MapView
+        android:id="@+id/detailMap"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

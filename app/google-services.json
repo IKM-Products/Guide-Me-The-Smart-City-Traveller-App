@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "852704566086",
+    "project_id": "guideme-5604a",
+    "storage_bucket": "guideme-5604a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:852704566086:android:680b81de1afa6907b5e347",
+        "android_client_info": {
+          "package_name": "com.skm.guideme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATQRbqzYE_jpTp_ZY4z3h2mfdmBTcL93E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,26 @@
+<resources>
+    <!-- Base application theme with dark blue colors -->
+    <style name="Theme.GuideMe" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">#003366</item>
+        <item name="colorPrimaryVariant">#002244</item> <!-- slightly darker shade -->
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">#005599</item> <!-- complementary blue shade -->
+        <item name="colorSecondaryVariant">#003366</item>
+        <item name="colorOnSecondary">@color/white</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">#003366</item>
+
+        <!-- Optional: Navigation bar color -->
+        <item name="android:navigationBarColor">#003366</item>
+    </style>
+
+    <!-- Custom button style using brown, if you want to keep it -->
+    <style name="BrownButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/brown</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
