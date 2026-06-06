@@ -1,12 +1,12 @@
 # 📍 Guide Me: Smart City Traveller App
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/dd8b7025-b876-43c1-aba5-32f6b2769b70" width="45%" />
-  <img src="https://github.com/user-attachments/assets/801e0235-e752-4074-88cf-20d610fe3f17" width="45%" />
+  <img src="https://github.com/user-attachments/assets/b49c07ae-3136-4f6e-8406-4313a8a0d47b" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/7ee6feb1-47d4-4eea-ab0e-eab60b00604d" width="45%"/>
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2874bec6-4d9c-4229-a0c1-b8e5af103db8" width="45%" />
-  <img src="https://github.com/user-attachments/assets/9fd32fa4-196d-4ecd-bd15-de328d50d4d1" width="45%" />
+  <img src="https://github.com/user-attachments/assets/3004db88-3f76-4b1c-8d23-cb1c01424b52" width="45%"/>
+  <img src="https://github.com/user-attachments/assets/7d08b62a-d925-44b5-8839-cba32288415e" width="45%"/>
 </p>
 
 **Guide Me** is a mobile application designed to enhance urban travel experiences by helping users easily explore and navigate their city. It is built with a focus on smart city concepts, the app provides real-time location-based services, route guidance, and detailed information about nearby places.
