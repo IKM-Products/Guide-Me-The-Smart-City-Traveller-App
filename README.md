@@ -13,7 +13,7 @@
 
 ## 🚀 Features
 
-* 📌 **User Authentication** - Secure login system to personalize user experience.
+* 🔐 **User Authentication** - Secure login system to personalize user experience.
 
 * 🗺️ **Interactive Map Integration** - Uses OpenStreetMap to display real-time maps and nearby locations.
 
