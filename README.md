@@ -1,4 +1,4 @@
-# 📍 Guide Me: Smart City Traveller App
+# 📍 Guide Me: The Smart City Traveler App
 <p align="center">
   <img src="https://github.com/user-attachments/assets/b49c07ae-3136-4f6e-8406-4313a8a0d47b" width="45%"/>
   <img src="https://github.com/user-attachments/assets/7ee6feb1-47d4-4eea-ab0e-eab60b00604d" width="45%"/>
@@ -51,7 +51,6 @@ The main goal of **Guide Me** is to provide a simple, efficient, and smart solut
 
 * 🌐 Integration with real-time traffic data
 * ⭐ User reviews and ratings
-* 🔊 Voice navigation
 * 🤖 AI-based personalized place recommendations
 
 ## 📧 Contact
